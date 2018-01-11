@@ -12,13 +12,7 @@ export class Component2Component {
   surname: string;
   com1Name: string;
 
-  @Input()
-  set title(newData: string) {
-      this.data = newData;
-  }
-  get title() {
-      return this.data;
-  }
+  @Input()title: string;
 
   constructor(
     public events: Events,
