@@ -4,8 +4,8 @@ Passing data between <br/>
 2) Component to Page
 3) Component to Component
 
-We use Events to pass data between 'Component to Page' and 'Component to Component'. <br />
-Use Input to pass data between 'Page to Component'. <br />
+We use **Events** to pass data between **'**Component to Page**'** and **'**Component to Component**'**. <br />
+Use **Input** to pass data between **'**Page to Component**'**. <br />
 
 =================================== <br />
 $ ionic info
