@@ -1,0 +1,22 @@
+
+
+<ion-card>
+  <ion-card-header>
+    In Component 1 - <b> {{ title }} </b>
+  </ion-card-header>
+      
+
+  <ion-item>
+    <ion-label color="primory">Name</ion-label>
+    <ion-input type="text" placeholder="Write Your Name" [(ngModel)]="name" style="color: brown;"></ion-input>
+  </ion-item>
+  <button ion-button color="dark" (click)="submit()" style="float:right;margin: 10px;">
+    Submit
+  </button>
+
+  <ion-item *ngIf="com2Surname" style="background-color: bisque;"> 
+      from component2: <b>{{ com2Surname }}</b>
+    </ion-item>
+  
+
+</ion-card>
