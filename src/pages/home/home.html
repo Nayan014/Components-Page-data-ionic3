@@ -9,18 +9,18 @@
 
 <ion-content>
 
-  <component1 [title]="'Data form home page'"></component1>
-  <component2 [title]="'Data form home page'"></component2>
+  <component1 [title]="'Data from home page'"></component1>
+  <component2 [title]="'Data from home page'"></component2>
 
   <ion-item *ngIf="name || surname">
     <b>Home Page</b>
   </ion-item>
 
   <ion-item *ngIf="name" style="background-color: cornflowerblue;">
-    Data form com1 to Home Page: <b>{{ name }}</b>
+    Data from com1 to Home Page: <b>{{ name }}</b>
   </ion-item>
   <ion-item *ngIf="surname" style="background-color: bisque;">
-    Data form com2 to Home Page: <b>{{ surname }}</b>
+    Data from com2 to Home Page: <b>{{ surname }}</b>
   </ion-item>
 
 </ion-content>
